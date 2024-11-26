@@ -47,10 +47,12 @@ nav{
     align-items: center;
     margin: 0  70px ;
     width: 100vw;
+    animation: fadeInDown 1s ease-in-out;
 }
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
+    animation: fadeInDown 1s ease-in-out;
 }
 
 #hamburger .line {
@@ -223,11 +225,12 @@ nav{
 
 .home-content p {
     font-size: 2rem;
+    animation: fadeInDown 1s ease-in-out;
     margin-bottom: 2rem;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
 
-.btn {
+.btn {animation: fadeInDown 1s ease-in-out;
     border: 2px solid rgb(43, 211, 226);
     color: white;
     padding: 0.75rem 1.5rem;
