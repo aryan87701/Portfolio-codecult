@@ -17,3 +17,12 @@ hamburger.addEventListener("click", () => {
     
 })
 
+const images = document.querySelectorAll('.c-img');
+let currentimage=0;
+function showimages(){
+    images[currentimage].classList.remove('visible');
+    currentimage = (currentimage + 1) % images.length;
+    images[currentimage].classList.add('visible');
+}
+setInterval(showimages, 2000);
+
